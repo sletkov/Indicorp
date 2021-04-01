@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <title>Indicorp</title>
 </head>
 <body class="body">
@@ -15,11 +15,7 @@
 
             <a href="#" class="menu__logo">Indicorp</a>
 
-            <button class="menu__button"><img src="img/loop__ico.svg" alt=""></button>
-            <button class="menu__button"><img src="img/market__ico.svg" alt=""></button>
-            <button class="menu__button"><img src="img/hamburger__ico.svg" alt=""></button>
-
-            <nav class="header__navigation navigation">
+            <nav class="menu__navigation navigation">
 
                 <ul class="navigation__list">
                     <li class="navigation__link"><a href="#" class="link">Home</a></li>
@@ -29,6 +25,13 @@
                 </ul>
     
             </nav>
+
+            <div class="menu__buttons buttons">
+                <button class="menu__button"><img src="img/loop__ico.svg" alt=""></button>
+                <button class="menu__button"><img src="img/market__ico.svg" alt=""></button>
+                <button class="menu__button"><img src="img/hamburger__ico.svg" alt=""></button>
+             </div>
+       
 
         </section>
 
@@ -66,11 +69,11 @@
 
             </div>
 
-            <div class="cardholder__card card-blue" >
+            <div class="cardholder__card card--blue" >
 
                 <img src="img/book__ico.svg" alt="">
-                <h3 class="card__heading-white">Business Growing    </h3>
-                <p class="card__text-white">The quick fox jumps over the 
+                <h3 class="card__heading--white">Business Growing    </h3>
+                <p class="card__text--white">The quick fox jumps over the 
                     lazy dog</p>
 
             </div>
@@ -91,28 +94,28 @@
 
             <div class="features__featurebox featurebox ">
                 
-                <div class="feauterbox__feautercard">
+                <div class="featurebox__card">
                     <img src="img/community__ico.svg" alt="">
-                    <h3 class="feauter__heading">3k</h3>
-                    <p class="feauter__text">Countries worldwide</p>
+                    <h3 class="card__heading">3k</h3>
+                    <p class="card__text">Countries worldwide</p>
                 </div>
 
-                <div class="feauterbox__feautercard">
+                <div class="featurebox__card">
                     <img src="img/branch__ico.svg" alt="">
-                    <h3 class="feauter__heading">45</h3>
-                    <p class="feauter__text">Happy customers</p>
+                    <h3 class="card__heading">45</h3>
+                    <p class="card__text">Happy customers</p>
                 </div>
 
-                <div class="feauterbox__feautercard">
+                <div class="featurebox__card">
                     <img src="img/award__ico.svg" alt="">
-                    <h3 class="feauter__heading">12+</h3>
-                    <p class="feauter__text">Awards winning</p>
+                    <h3 class="card__heading">12+</h3>
+                    <p class="card__text">Awards winning</p>
                 </div>
 
-                <div class="feauterbox__feautercard">
+                <div class="featurebox__card">
                     <img src="img/case__ico.svg" alt="">
-                    <h3 class="feauter__heading">1.5k</h3>
-                    <p class="feauter__text">Cases done</p>
+                    <h3 class="card__heading">1.5k</h3>
+                    <p class="card__text">Cases done</p>
                 </div>
 
 
@@ -131,8 +134,8 @@
             <div class="advices__advicesbox advicesbox">
 
                 <div class="advicesbox__advicecard ">
-                    <h3>A single source of truth</h3>
-                    <p>Newton thought that 
+                    <h3 class="advicecard__heading">A single source of truth</h3>
+                    <p class="advicecard__text">Newton thought that 
                         light was made up of 
                         particles, but then it 
                         was discovered </p>
@@ -140,24 +143,24 @@
                 </div>
                 
                 <div class="advicesbox__advicecard ">
-                    <h3>Fastest way to organize</h3>
-                    <p>“Quantum mechanics” 
+                    <h3 class="advicecard__heading">Fastest way to organize</h3>
+                    <p class="advicecard__text">“Quantum mechanics” 
                         is the description of the 
                         behaviour of matter</p>
                     <img src="img/advice__image2.jpg" alt="">
                 </div>
                 
                 <div class="advicesbox__advicecard">
-                    <h3>Fastest way to take action</h3>
-                    <p>They describe a 
+                    <h3 class="advicecard__heading">Fastest way to take action</h3>
+                    <p class="advicecard__text">They describe a 
                         universe consisting of 
                         bodies moving</p>
                     <img src="img/advice__image3.jpg" alt="">
                 </div>
 
-                <div class="advices-examples__example ">
-                    <h3>Work better together</h3>
-                    <p>They finally obtained 
+                <div class="advicesbox__advicecard">
+                    <h3 class="advicecard__heading">Work better together</h3>
+                    <p class="advicecard__text">They finally obtained 
                         a consistent description 
                         of the behaviour </p>
                     <img src="img/advice__image4.jpg" alt="">
@@ -168,23 +171,23 @@
         </div>
 
         <div class="main__about about">
-            <h2>We take care 
+            <h2 class="about__heading">We take care 
                 customers our 
                 all expert here.</h2>
-            <p>Problems trying to resolve 
+            <p class="about__text">Problems trying to resolve 
                 the conflict between the 
                 two major realms of Classical 
                 physics: Newtonian mechanics </p>
             
-            <section>
+            <section class="about__section section--about">
 
-                <h3>Most trusted in our field</h2>
+                <video  class="section--about__video" src="https://youtu.be/b_bRP6HbJ9k" controls></video>
+
+                <h3 class="section--about__heading">Most trusted in our field</h2>
     
-                <p>Most calendars are designed for teams. Slate 
+                <p class="section--about__text">Most calendars are designed for teams. Slate 
                     is designed for freelancers who want a 
                     simple way to plan their schedule.</p>
-
-                <video src="https://youtu.be/b_bRP6HbJ9k" controls></video>
 
                 <div>
                     <h4>the quick fox jumps over the lazy 
