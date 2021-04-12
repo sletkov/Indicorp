@@ -13,7 +13,19 @@
 
         <section class="header__menu menu"> 
 
-            <a href="#" class="menu__logo">Indicorp</a>
+            <div class="menu__wrapper">
+                
+                <a href="#" class="menu__logo">Indicorp</a>
+
+                <div class="menu__buttons buttons">
+                    <button class="menu__button"><img class ="button__img" src="img/loop__ico.svg" alt=""></button>
+                    <button class="menu__button"><img class ="button__img" src="img/market__ico.svg" alt=""></button>
+                    <button class="menu__button"><img class ="button__img" src="img/hamburger__ico.svg" alt=""></button>
+                 </div>
+                 
+            </div>
+
+         
 
             <nav class="menu__navigation navigation">
 
@@ -26,11 +38,7 @@
     
             </nav>
 
-            <div class="menu__buttons buttons">
-                <button class="menu__button"><img src="img/loop__ico.svg" alt=""></button>
-                <button class="menu__button"><img src="img/market__ico.svg" alt=""></button>
-                <button class="menu__button"><img src="img/hamburger__ico.svg" alt=""></button>
-             </div>
+           
        
 
         </section>
@@ -181,7 +189,7 @@
             
             <section class="about__section section--about">
 
-                <video  class="section--about__video" src="https://youtu.be/b_bRP6HbJ9k" controls></video>
+                <img  class="section--about__video" src="img/aboutus__video.jpg" alt="video about us"></img>
 
                 <h3 class="section--about__heading">Most trusted in our field</h2>
     
@@ -189,18 +197,28 @@
                     is designed for freelancers who want a 
                     simple way to plan their schedule.</p>
 
-                <div>
-                    <h4>the quick fox jumps over the lazy 
-                        dog</h4>
-                    <p>Things on a very small scale ...</p>
-                    <img src="img/community2__ico.svg" alt="">
+                <div class="section--about__card about__card">
+
+                    <img src="img/community2__ico.svg" alt="" class="about__card__img">
+
+                    <div class="about__card__wrapper">
+                        <h4 class="about__card__heading">the quick fox jumps over the lazy 
+                            dog</h4>
+                        <p class="about__card__text">Things on a very small scale ...</p>
+                    </div>
+
                 </div>
 
-                <div>
-                    <h4>the quick fox jumps over the lazy 
-                        dog</h4>
-                    <p>Things on a very small scale ...</p>
-                    <img src="img/speedometer__ico.svg" alt="">
+                <div class="section--about__card about__card">
+
+                    <img src="img/speedometer__ico.svg" alt="" class="about__card__img">
+
+                    <div class="about__card__wrapper">
+                        <h4 class="about__card__heading">the quick fox jumps over the lazy 
+                            dog</h4>
+                        <p class="about__card__text">Things on a very small scale ...</p>
+                    </div>
+                     
                 </div>
 
             </section>
@@ -213,20 +231,20 @@
 
             <div class="clients_icons icons">
 
-                <img src="img/clients__ico1.svg" alt="">
-                <img src="img/clients__ico2.svg" alt="">
-                <img src="img/clients__ico3.svg" alt="">
-                <img src="img/clients__ico4.svg" alt="">
-                <img src="img/clients__ico5.svg" alt="">
-                <img src="img/clients__ico6.svg" alt="">
+                <img class="icons__ico" src="img/clients__ico1.svg" alt="hooli">
+                <img class="icons__ico" src="img/clients__ico2.svg" alt="lya">
+                <img class="icons__ico" src="img/clients__ico3.svg" alt="">
+                <img class="icons__ico" src="img/clients__ico4.svg" alt="stripe">
+                <img class="icons__ico" src="img/clients__ico5.svg" alt="aws">
+                <img class="icons__ico" src="img/clients__ico6.svg" alt="">
 
-                <div>
+                <div class="clients__subscribe subscribe">
 
-                    <form action="">
-                        <p>Subscribe For Latest 
-                            Newsletter</p>
-                        <input type="text">
-                        <button>Subcribe</button>
+                    <form  class="subscribe__form" action="">
+                        <p class="form__text">Subscribe for latest 
+                            newsletter</p>
+                        <input class="form__input" type="text" placeholder="Your Email">
+                        <button class="form__button">Subcribe</button>
                     </form>
 
                 </div>
@@ -237,34 +255,34 @@
 
         <div class="main__feedback feedback">
 
-            <h2>Get In Touch</h2>
-            <p>Problems trying to resolve the conflict between 
+            <h2 class="feedback__heading">Get In Touch</h2>
+            <p class="feedback__text">Problems trying to resolve the conflict between 
                 the two major realms of Classical physics: Newtonian mechanics </p>
 
-            <div class="">
+            <div class="feedback__cardbox cardbox">
 
-                <div>
-                    <img src="img/phone__ico.svg" alt="">
-                    <p>georgia.young@example.com</p>
-                    <p>georgia.young@ple.com</p>
-                    <h3>Get support</h3>
-                    <button>Submit request</button>
+                <div class="cardbox__card card--feedback--white">
+                    <img class="card--feedback--white__ico"src="img/phone__ico.svg" alt="">
+                    <p class="card--feedback--white__mail">georgia.young@example.com</p>
+                    <p class="card--feedback--white__mail">georgia.young@ple.com</p>
+                    <h3 class="card--feedback--white__heading">Get support</h3>
+                    <button class="card--feedback--white__button">Submit request</button>
                 </div>
 
-                <div>
-                    <img src="img/location__ico.svg" alt="">
-                    <p>georgia.young@example.com</p>
-                    <p>georgia.young@ple.com</p>
-                    <h3>Get support</h3>
-                    <button>Submit request</button>
+                <div class="cardbox__card card--feedback--blue">
+                    <img class="cardbox__card card--feedback--blue__ico" src="img/location__ico.svg" alt="">
+                    <p class="cardbox__card card--feedback--blue__mail">georgia.young@example.com</p>
+                    <p class="cardbox__card card--feedback--blue__mail">georgia.young@ple.com</p>
+                    <h3 class="cardbox__card card--feedback--blue__heading">Get support</h3>
+                    <button class="cardbox__card card--feedback--blue__button">Submit request</button>
                 </div>
 
-                <div>
-                    <img src="img/telegram__ico.svg" alt="">
-                    <p>georgia.young@example.com</p>
-                    <p>georgia.young@ple.com</p>
-                    <h3>Get support</h3>
-                    <button>Submit request</button>
+                <div class="cardbox__card card--feedback--white">
+                    <img class="card--feedback--white__ico" src="img/telegram__ico.svg" alt="">
+                    <p class="card--feedback--white__mail">georgia.young@example.com</p>
+                    <p class="card--feedback--white__mail">georgia.young@ple.com</p>
+                    <h3 class="card--feedback--white__heading">Get support</h3>
+                    <button class="card--feedback--white__button">Submit request</button>
                 </div>
 
             </div>
@@ -275,70 +293,73 @@
 
     <footer class="body__footer footer">
 
-        <section>
-            <h2>Consulting Agency For Your Business</h2>
-            <p>the quick fox jumps over the lazy dog</p>
-            <button>Contact us</button>
+        <section class="footer__contact contact">
+            <h2 class="contact__heading">Consulting Agency For Your Business</h2>
+            <p class="contact__text">the quick fox jumps over the lazy dog</p>
+            <button class="contact__button">Contact us</button>
         </section>
 
-        <section>
+        <section class="footer__cite--map cite--map">
 
-            <h5>Company info</h5>
+            <h3 class="cite--map__heading">Company info</h5>
 
-            <ul>
-                <li><a href="">About us</a></li>
-                <li><a href="">Carrier</a></li>
-                <li><a href="">We are hiring</a></li>
-                <li><a href="">Blog</a></li>
+            <ul class="cite--map__list">
+                <li><a href="#" class="cite--map__link">About us</a></li>
+                <li><a href="#" class="cite--map__link">Carrier</a></li>
+                <li><a href="#" class="cite--map__link">We are hiring</a></li>
+                <li><a href="#" class="cite--map__link">Blog</a></li>
             </ul>
 
-            <h5>Legal</h5>
+            <h3 class="cite--map__heading">Legal</h5>
 
-            <ul>
-                <li><a href="">About us</a></li>
-                <li><a href="">Carrier</a></li>
-                <li><a href="">We are hiring</a></li>
-                <li><a href="">Blog</a></li>
+            <ul class="cite--map__list">
+                <li><a href="#" class="cite--map__link">About us</a></li>
+                <li><a href="#" class="cite--map__link">Carrier</a></li>
+                <li><a href="#" class="cite--map__link">We are hiring</a></li>
+                <li><a href="#" class="cite--map__link">Blog</a></li>
             </ul>
 
-            <h5>Features</h5>
+            <h3 class="cite--map__heading">Features</h5>
 
-            <ul>
-                <li><a href="">Business Marketing</a></li>
-                <li><a href="">User Analytic</a></li>
-                <li><a href="">Live Chat</a></li>
-                <li><a href="">Unlimited Support</a></li>
+            <ul class="cite--map__list">
+                <li><a href="#" class="cite--map__link">Business Marketing</a></li>
+                <li><a href="#" class="cite--map__link">User Analytic</a></li>
+                <li><a href="#" class="cite--map__link">Live Chat</a></li>
+                <li><a href="#" class="cite--map__link">Unlimited Support</a></li>
             </ul>
 
-            <h5>Resoursec</h5>
+            <h3 class="cite--map__heading">Resoursec</h5>
 
-            <ul>
-                <li><a href="">IOS & Android</a></li>
-                <li><a href="">Watch a Demo</a></li>
-                <li><a href="">Customers</a></li>
-                <li><a href="">API  </a></li>
+            <ul class="cite--map__list">
+                <li><a href="#" class="cite--map__link">IOS & Android</a></li>
+                <li><a href="#" class="cite--map__link">Watch a Demo</a></li>
+                <li><a href="#" class="cite--map__link">Customers</a></li>
+                <li><a href="#" class="cite--map__link">API  </a></li>
             </ul>
        
 
-            <h5>Get in touch</h5>
+            <h3 class="cite--map__heading">Get in touch</h5>
 
-            <ul>
-                <li><a href="">(480)555-0103</a></li>
-                <li><a href="">4517 Washington Ave.</a></li>
-                <li><a href="">debra.holt@example.com</a></li>
+            <ul class="cite--map__list">
+                <li><a href="#" class="cite--map__link">(480)555-0103</a></li>
+                <li><a href="#" class="cite--map__link">4517 Washington Ave.</a></li>
+                <li><a href="#" class="cite--map__link">debra.holt@example.com</a></li>
             </ul>
 
         </section>
 
-        <section>
+        <section class="footer__copyright copyright">
 
-            <p>Made With Love By Figmaland 
+            <p class="copyright__text">Made With Love By Figmaland 
                 All Right Reserved </p>
-
-            <img src="img/facebook__ico.svg" alt="">
-            <img src="img/insta__logo.svg" alt="">
-            <img src="img/twitter__logo.svg" alt="">
-            <img src="img/youtube__logo.svg" alt="">
+            
+            <div class="copyright__wrapper">
+                <img src="img/facebook__ico.svg" alt="" class="copyright__ico">
+                <img src="img/insta__logo.svg" alt="" class="copyright__ico">
+                <img src="img/twitter__logo.svg" alt="" class="copyright__ico">
+                <img src="img/youtube__logo.svg" alt=""class="copyright__ico">
+            </div>
+          
 
         </section>
 
