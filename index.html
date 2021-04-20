@@ -12,15 +12,14 @@
     <header class="body__header header">
 
         <section class="header__menu menu"> 
-
+            
+            <a href="#" class="menu__logo">Indicorp</a>
             <div class="menu__wrapper">
                 
-                <a href="#" class="menu__logo">Indicorp</a>
-
                 <div class="menu__buttons buttons">
-                    <button class="menu__button"><img class ="button__img" src="img/loop__ico.svg" alt=""></button>
-                    <button class="menu__button"><img class ="button__img" src="img/market__ico.svg" alt=""></button>
-                    <button class="menu__button"><img class ="button__img" src="img/hamburger__ico.svg" alt=""></button>
+                    <button class="menu__button"><img class ="button__img--loop" src="img/loop__ico.svg" alt=""></button>
+                    <button class="menu__button"><img class ="button__img--market" src="img/market__ico.svg" alt=""></button>
+                    <button class="menu__button-hamburger"><img class ="button__img-hamburger" src="img/hamburger__ico.svg" alt=""></button>
                  </div>
                  
             </div>
@@ -190,36 +189,40 @@
             <section class="about__section section--about">
 
                 <img  class="section--about__video" src="img/aboutus__video.jpg" alt="video about us"></img>
-
-                <h3 class="section--about__heading">Most trusted in our field</h2>
+                <div class="section--about__textpart">
+                    <h3 class="section--about__heading">Most trusted in our field</h2>
     
-                <p class="section--about__text">Most calendars are designed for teams. Slate 
+                    <p class="section--about__text">Most calendars are designed for teams. Slate 
                     is designed for freelancers who want a 
                     simple way to plan their schedule.</p>
 
-                <div class="section--about__card about__card">
+                    <div class="section--about__card about__card">
 
-                    <img src="img/community2__ico.svg" alt="" class="about__card__img">
+                        <img src="img/community2__ico.svg" alt="" class="about__card__img">
 
-                    <div class="about__card__wrapper">
-                        <h4 class="about__card__heading">the quick fox jumps over the lazy 
+                        <div class="about__card__wrapper">
+                            <h4 class="about__card__heading">the quick fox jumps over the lazy 
                             dog</h4>
-                        <p class="about__card__text">Things on a very small scale ...</p>
+                         <p class="about__card__text">Things on a very small scale ...</p>
+                        </div>
                     </div>
+
+                    <div class="section--about__card about__card">
+
+                        <img src="img/speedometer__ico.svg" alt="" class="about__card__img">
+    
+                        <div class="about__card__wrapper">
+                            <h4 class="about__card__heading">the quick fox jumps over the lazy 
+                                dog</h4>
+                            <p class="about__card__text">Things on a very small scale ...</p>
+                        </div>
+                         
+                    </div>
+                
 
                 </div>
 
-                <div class="section--about__card about__card">
-
-                    <img src="img/speedometer__ico.svg" alt="" class="about__card__img">
-
-                    <div class="about__card__wrapper">
-                        <h4 class="about__card__heading">the quick fox jumps over the lazy 
-                            dog</h4>
-                        <p class="about__card__text">Things on a very small scale ...</p>
-                    </div>
-                     
-                </div>
+           
 
             </section>
        
@@ -237,18 +240,18 @@
                 <img class="icons__ico" src="img/clients__ico4.svg" alt="stripe">
                 <img class="icons__ico" src="img/clients__ico5.svg" alt="aws">
                 <img class="icons__ico" src="img/clients__ico6.svg" alt="">
-
-                <div class="clients__subscribe subscribe">
-
-                    <form  class="subscribe__form" action="">
-                        <p class="form__text">Subscribe for latest 
-                            newsletter</p>
-                        <input class="form__input" type="text" placeholder="Your Email">
-                        <button class="form__button">Subcribe</button>
-                    </form>
-
-                </div>
               
+            </div>
+
+            <div class="clients__subscribe subscribe">
+
+                <form  class="subscribe__form" action="">
+                    <p class="form__text">Subscribe for latest 
+                        newsletter</p>
+                    <input class="form__input" type="text" placeholder="Your Email">
+                    <button class="form__button">Subcribe</button>
+                </form>
+
             </div>
 
         </div>
@@ -294,57 +297,68 @@
     <footer class="body__footer footer">
 
         <section class="footer__contact contact">
-            <h2 class="contact__heading">Consulting Agency For Your Business</h2>
-            <p class="contact__text">the quick fox jumps over the lazy dog</p>
+            <div class="contact__textpart">
+                <h2 class="contact__heading">Consulting agency for your business</h2>
+                <p class="contact__text">the quick fox jumps over the lazy dog</p>
+            </div>
+            
             <button class="contact__button">Contact us</button>
         </section>
 
         <section class="footer__cite--map cite--map">
+            <div class="cite--map__wrapper">
+                <h3 class="cite--map__heading">Company info</h5>
 
-            <h3 class="cite--map__heading">Company info</h5>
+                    <ul class="cite--map__list">
+                        <li><a href="#" class="cite--map__link">About us</a></li>
+                        <li><a href="#" class="cite--map__link">Carrier</a></li>
+                        <li><a href="#" class="cite--map__link">We are hiring</a></li>
+                        <li><a href="#" class="cite--map__link">Blog</a></li>
+                    </ul>
+            </div>
+       
+            <div class="cite--map__wrapper">
+                <h3 class="cite--map__heading">Legal</h5>
 
-            <ul class="cite--map__list">
-                <li><a href="#" class="cite--map__link">About us</a></li>
-                <li><a href="#" class="cite--map__link">Carrier</a></li>
-                <li><a href="#" class="cite--map__link">We are hiring</a></li>
-                <li><a href="#" class="cite--map__link">Blog</a></li>
-            </ul>
+                    <ul class="cite--map__list">
+                        <li><a href="#" class="cite--map__link">About us</a></li>
+                        <li><a href="#" class="cite--map__link">Carrier</a></li>
+                        <li><a href="#" class="cite--map__link">We are hiring</a></li>
+                        <li><a href="#" class="cite--map__link">Blog</a></li>
+                    </ul>
+            </div>
 
-            <h3 class="cite--map__heading">Legal</h5>
+            <div class="cite--map__wrapper">
+                <h3 class="cite--map__heading">Features</h5>
 
-            <ul class="cite--map__list">
-                <li><a href="#" class="cite--map__link">About us</a></li>
-                <li><a href="#" class="cite--map__link">Carrier</a></li>
-                <li><a href="#" class="cite--map__link">We are hiring</a></li>
-                <li><a href="#" class="cite--map__link">Blog</a></li>
-            </ul>
+                    <ul class="cite--map__list">
+                        <li><a href="#" class="cite--map__link">Business Marketing</a></li>
+                        <li><a href="#" class="cite--map__link">User Analytic</a></li>
+                        <li><a href="#" class="cite--map__link">Live Chat</a></li>
+                        <li><a href="#" class="cite--map__link">Unlimited Support</a></li>
+                    </ul>
+            </div>
 
-            <h3 class="cite--map__heading">Features</h5>
-
-            <ul class="cite--map__list">
-                <li><a href="#" class="cite--map__link">Business Marketing</a></li>
-                <li><a href="#" class="cite--map__link">User Analytic</a></li>
-                <li><a href="#" class="cite--map__link">Live Chat</a></li>
-                <li><a href="#" class="cite--map__link">Unlimited Support</a></li>
-            </ul>
-
+            <div class="cite--map__wrapper"> 
             <h3 class="cite--map__heading">Resoursec</h5>
 
-            <ul class="cite--map__list">
-                <li><a href="#" class="cite--map__link">IOS & Android</a></li>
-                <li><a href="#" class="cite--map__link">Watch a Demo</a></li>
-                <li><a href="#" class="cite--map__link">Customers</a></li>
-                <li><a href="#" class="cite--map__link">API  </a></li>
-            </ul>
-       
+                <ul class="cite--map__list">
+                    <li><a href="#" class="cite--map__link">IOS & Android</a></li>
+                    <li><a href="#" class="cite--map__link">Watch a Demo</a></li>
+                    <li><a href="#" class="cite--map__link">Customers</a></li>
+                    <li><a href="#" class="cite--map__link">API  </a></li>
+                </ul>
+            </div>
 
-            <h3 class="cite--map__heading">Get in touch</h5>
+            <div class="cite--map__wrapper">
+                <h3 class="cite--map__heading">Get in touch</h5>
 
-            <ul class="cite--map__list">
-                <li><a href="#" class="cite--map__link">(480)555-0103</a></li>
-                <li><a href="#" class="cite--map__link">4517 Washington Ave.</a></li>
-                <li><a href="#" class="cite--map__link">debra.holt@example.com</a></li>
-            </ul>
+                    <ul class="cite--map__list">
+                        <li><a href="#" class="cite--map__link">(480)555-0103</a></li>
+                        <li><a href="#" class="cite--map__link">4517 Washington Ave.</a></li>
+                        <li><a href="#" class="cite--map__link">debra.holt@example.com</a></li>
+                    </ul>
+            </div>
 
         </section>
 
