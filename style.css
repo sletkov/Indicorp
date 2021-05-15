@@ -12,6 +12,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.body {
+  background-color: #f3f3f3;
+}
+
 .header {
   background-image: url(img/header__background.jpg);
   background-repeat: no-repeat;
@@ -432,6 +436,8 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: #252B42;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .advicesbox__advicecard > .advicecard__text {
@@ -439,6 +445,8 @@ body {
   line-height: 20px;
   font-weight: 500;
   color: #737373;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .about {
@@ -951,8 +959,25 @@ body {
     border-radius: 37px;
     height: 48px;
   }
+  .promo .promo__buttons {
+    width: 35%;
+    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .promo .button-get-quote {
-    margin-top: 40px;
+    margin-top: 0px;
     background-color: #FFA62B;
     color: white;
   }
@@ -962,7 +987,7 @@ body {
     width: 154px;
     height: 48px;
     border: 1px solid #00A0C1;
-    margin-top: 25px;
+    margin-top: 0px;
     margin-left: 10px;
   }
   .cardholder {

@@ -7,7 +7,7 @@
     font-weight: $weight;
     color: $color;
 }
- 
+ .body {background-color: #f3f3f3;}
 .header {
     background-image: url(img/header__background.jpg) ;
     background-repeat: no-repeat;
@@ -300,11 +300,15 @@
 
             >.advicecard__heading {
                 @include text__decoration(1.2rem, 24px, 700, #252B42);
+                padding-left: 30px;
+                padding-right: 30px;
                 // width: 170px;    
             }
 
             >.advicecard__text {
                 @include text__decoration(1rem, 20px, 500, #737373);
+                padding-left: 30px;
+                padding-right: 30px;
                 // width: 170px;
             }
         }
@@ -587,7 +591,7 @@
     .header {
         background-image: url(img/header__background__desktop.jpg) ;
         background-repeat: no-repeat;
-        background-size: 100%;  
+        background-size: 100%;
         &__promo {
             // margin-left: 150px;
             margin-top: 80px;
@@ -671,8 +675,18 @@
             // width: 185px;
             height: 48px;
         }
+        .promo__buttons {
+            width: 35%;
+            margin-top: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items:center;
+        }
+       
+
         .button-get-quote {
-            margin-top: 40px;
+            margin-top: 0px;
             background-color: #FFA62B;
             color: white;
         }
@@ -683,7 +697,7 @@
             width: 154px;
             height: 48px;
             border: 1px solid #00A0C1;
-            margin-top: 25px;
+            margin-top: 0px;
             margin-left: 10px;
         }
     }
