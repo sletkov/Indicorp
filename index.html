@@ -17,9 +17,9 @@
             <div class="menu__wrapper">
                 
                 <div class="menu__buttons buttons">
-                    <button class="menu__button"><img class ="button__img--loop" src="img/loop__ico.svg" alt=""></button>
-                    <button class="menu__button"><img class ="button__img--market" src="img/market__ico.svg" alt=""></button>
-                    <button class="menu__button--hamburger"><img class ="button__img--hamburger" src="img/hamburger__ico.svg" alt=""></button>
+                    <button class="menu__button" arealabel="search"><img class ="button__img--loop" src="img/loop__ico.svg" ></button>
+                    <button class="menu__button" arealabel="market"><img class ="button__img--market" src="img/market__ico.svg" ></button>
+                    <button class="menu__button--hamburger" arealabel="" ><img class ="button__img--hamburger" src="img/hamburger__ico.svg"></button>
                  </div>
                  
             </div>
@@ -63,7 +63,7 @@
 
             <div class="cardholder__card card" >
 
-                <img src="img/case__ico.svg" alt="">
+                <img src="img/case__ico.svg" alt="case">
                 <h3 class="card__heading">Digital Marketing</h3>
                 <p class="card__text">We focus on ergonomics and 
                     meeting you where you work.</p>
@@ -72,7 +72,7 @@
 
             <div class="cardholder__card card" >
                  
-                <img src="img/store__ico.svg" alt="">
+                <img src="img/store__ico.svg" alt="shop">
                 <h3 class="card__heading">Web Development</h3>
                 <p class="card__text">Just type what's on your mind 
                     and we'll get you there.</p>
@@ -81,7 +81,7 @@
 
             <div class="cardholder__card card--blue" >
 
-                <img src="img/book__ico.svg" alt="">
+                <img src="img/book__ico.svg" alt="newspaper">
                 <h3 class="card__heading--white">Business Growing    </h3>
                 <p class="card__text--white">The quick fox jumps over the 
                     lazy dog</p>
@@ -105,25 +105,25 @@
             <div class="features__featurebox featurebox ">
                 
                 <div class="featurebox__card">
-                    <img src="img/community__ico.svg" alt="">
+                    <img src="img/community__ico.svg" alt="people">
                     <h3 class="card__heading">3k</h3>
                     <p class="card__text">Countries worldwide</p>
                 </div>
 
                 <div class="featurebox__card">
-                    <img src="img/branch__ico.svg" alt="">
+                    <img src="img/branch__ico.svg" alt="schema">
                     <h3 class="card__heading">45</h3>
                     <p class="card__text">Happy customers</p>
                 </div>
 
                 <div class="featurebox__card">
-                    <img src="img/award__ico.svg" alt="">
+                    <img src="img/award__ico.svg" alt="award">
                     <h3 class="card__heading">12+</h3>
                     <p class="card__text">Awards winning</p>
                 </div>
 
                 <div class="featurebox__card">
-                    <img src="img/case__ico.svg" alt="">
+                    <img src="img/case__ico.svg" alt="case">
                     <h3 class="card__heading">1.5k</h3>
                     <p class="card__text">Cases done</p>
                 </div>
@@ -149,7 +149,11 @@
                         light was made up of 
                         particles, but then it 
                         was discovered </p>
-                    <img src="img/advice__image.jpg" alt="">
+                    <picture>
+                        <img src="img/advice__image--231px.jpg" alt="manager">
+                        <source srcset="img/advice__image--150px.jpg" media="(max-width:420px)">
+                        <source srcset="img/advice__image--320px.jpg" media="(max-width:1024px)">
+                    </picture>
                 </div>
                 
                 <div class="advicesbox__advicecard ">
@@ -157,7 +161,12 @@
                     <p class="advicecard__text">“Quantum mechanics” 
                         is the description of the 
                         behaviour of matter</p>
-                    <img src="img/advice__image2.jpg" alt="">
+                    <picture>
+                        <img src="img/advice__image2--231px.jpg" alt="managers">
+                        <source srcset="img/advice__image2--150px.jpg" media="(max-width:420px)">
+                        <source srcset="img/advice__image2--320px.jpg" media="(max-width:1024px">
+                    </picture>
+                        
                 </div>
                 
                 <div class="advicesbox__advicecard">
@@ -165,7 +174,13 @@
                     <p class="advicecard__text">They describe a 
                         universe consisting of 
                         bodies moving</p>
-                    <img src="img/advice__image3.jpg" alt="">
+                    <picture>
+                        <img src="img/advice__image3--231px.jpg" alt="working table">
+                        <source srcset="img/advice__image3--150px.jpg" media="(max-width:420px)">
+                        <source srcset="img/advice__image4--320px.jpg" media="(max-width:1024px)">
+                    </picture>
+                    
+
                 </div>
 
                 <div class="advicesbox__advicecard">
@@ -173,7 +188,11 @@
                     <p class="advicecard__text">They finally obtained 
                         a consistent description 
                         of the behaviour </p>
-                    <img src="img/advice__image4.jpg" alt="">
+                    <picture>
+                        <img src="img/advice__image4--231px.jpg" alt=" working place">
+                        <source srcset="img/advice__image4--150px.jpg" media="(max-width:420px)">
+                        <source srcset="img/advice__image4--320px.jpg" media="(min-width:1024px)">
+                    </picture>
                 </div>
 
             </div>
@@ -191,7 +210,15 @@
             
             <section class="about__section section--about">
 
-                <img  class="section--about__video" src="img/aboutus__video.jpg" alt="video about us"></img>
+                <img  class="section--about__video" 
+                    src="img/aboutus__video--320px.jpg" 
+
+                    srcset =" img/aboutus__video--480px.jpg 480w, 
+                    img/aboutus__video--320px.jpg 320w,
+                    img/aboutus__video--200px.jpg 200w," 
+                    alt="video about us">
+                </img>
+
                 <div class="section--about__textpart">
                     <h3 class="section--about__heading">Most trusted in our field</h2>
     
@@ -201,7 +228,7 @@
 
                     <div class="section--about__card about__card">
 
-                        <img src="img/community2__ico.svg" alt="" class="about__card__img">
+                        <img src="img/community2__ico.svg" alt="ico" class="about__card__img">
 
                         <div class="about__card__wrapper">
                             <h4 class="about__card__heading">the quick fox jumps over the lazy 
@@ -212,7 +239,7 @@
 
                     <div class="section--about__card about__card">
 
-                        <img src="img/speedometer__ico.svg" alt="" class="about__card__img">
+                        <img src="img/speedometer__ico.svg" alt="ico" class="about__card__img">
     
                         <div class="about__card__wrapper">
                             <h4 class="about__card__heading">the quick fox jumps over the lazy 
@@ -239,10 +266,10 @@
 
                 <img class="icons__ico" src="img/clients__ico1.svg" alt="hooli">
                 <img class="icons__ico" src="img/clients__ico2.svg" alt="lya">
-                <img class="icons__ico" src="img/clients__ico3.svg" alt="">
+                <img class="icons__ico" src="img/clients__ico3.svg" alt="ico">
                 <img class="icons__ico" src="img/clients__ico4.svg" alt="stripe">
                 <img class="icons__ico" src="img/clients__ico5.svg" alt="aws">
-                <img class="icons__ico" src="img/clients__ico6.svg" alt="">
+                <img class="icons__ico" src="img/clients__ico6.svg" alt="ico">
               
             </div>
 
@@ -268,7 +295,7 @@
             <div class="feedback__cardbox cardbox">
 
                 <div class="cardbox__card card--feedback--white">
-                    <img class="card--feedback--white__ico"src="img/phone__ico.svg" alt="">
+                    <img class="card--feedback--white__ico"src="img/phone__ico.svg" alt="phone">
                     <p class="card--feedback--white__mail">georgia.young@example.com</p>
                     <p class="card--feedback--white__mail">georgia.young@ple.com</p>
                     <h3 class="card--feedback--white__heading">Get support</h3>
@@ -276,7 +303,7 @@
                 </div>
 
                 <div class="cardbox__card card--feedback--blue">
-                    <img class="cardbox__card card--feedback--blue__ico" src="img/location__ico.svg" alt="">
+                    <img class="cardbox__card card--feedback--blue__ico" src="img/location__ico.svg" alt="marker">
                     <p class="cardbox__card card--feedback--blue__mail">georgia.young@example.com</p>
                     <p class="cardbox__card card--feedback--blue__mail">georgia.young@ple.com</p>
                     <h3 class="cardbox__card card--feedback--blue__heading">Get support</h3>
@@ -284,7 +311,7 @@
                 </div>
 
                 <div class="cardbox__card card--feedback--white">
-                    <img class="card--feedback--white__ico" src="img/telegram__ico.svg" alt="">
+                    <img class="card--feedback--white__ico" src="img/telegram__ico.svg" alt="paper plane">
                     <p class="card--feedback--white__mail">georgia.young@example.com</p>
                     <p class="card--feedback--white__mail">georgia.young@ple.com</p>
                     <h3 class="card--feedback--white__heading">Get support</h3>
@@ -375,10 +402,6 @@
                 <a href="#" class="copyright__ico--insta"></a>
                 <a href="#" class="copyright__ico--twitter"></a>
                 <a href="#" class="copyright__ico--youtube"></a>
-                <!-- <img src="img/facebook__ico.svg" alt="" class="copyright__ico">
-                <img src="img/insta__logo.svg" alt="" class="copyright__ico">
-                <img src="img/twitter__logo.svg" alt="" class="copyright__ico">
-                <img src="img/youtube__logo.svg" alt=""class="copyright__ico"> -->
             </div>
           
 
