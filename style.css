@@ -838,6 +838,54 @@ body {
   margin-bottom: 55px;
 }
 
+.copyright__ico--facebook {
+  background: url(img/spritesheet.png);
+  background-repeat: no-repeat;
+  height: 98px;
+  width: 100px;
+  display: inline-block;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  background-position: -10px -5px;
+}
+
+.copyright__ico--insta {
+  background: url(img/spritesheet.png);
+  background-repeat: no-repeat;
+  height: 98px;
+  width: 100px;
+  display: inline-block;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  background-position: -39px -5px;
+}
+
+.copyright__ico--twitter {
+  background: url(img/spritesheet.png);
+  background-repeat: no-repeat;
+  height: 98px;
+  width: 100px;
+  display: inline-block;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  background-position: -5px -38px;
+}
+
+.copyright__ico--youtube {
+  background: url(img/spritesheet.png);
+  background-repeat: no-repeat;
+  height: 98px;
+  width: 100px;
+  display: inline-block;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  background-position: -39px -38px;
+}
+
 @media (min-width: 1024px) {
   .header {
     background-image: url(img/header__background__desktop.jpg);
